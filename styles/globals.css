@@ -99,9 +99,11 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+nav{
+  padding: 10px;
+  margin:10px;
+  background-color: lightpink;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
